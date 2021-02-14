@@ -1,0 +1,35 @@
+# create which classes we will need based off a design problem
+Address
+- country: string
+- state: string
+- streetAddress: string
+- city: string
+- postalCode: string
+
+Person
+- firstName: string
+- lastName: string
+- dateOfBirth: date
+- phoneNumber: string
+
+Student
+- international: boolean
+- isPartTime(): boolean
+- isOnProbation(): boolean
+
+Professor
+- salary: float
+
+Course
+- name: string
+- coursecode: string
+- minStudents: int
+- maxStudents: int
+- isCancelled(): boolean
+- start: date
+- end: date
+
+Enrol
+- date: date
+- grade: float
+ 
